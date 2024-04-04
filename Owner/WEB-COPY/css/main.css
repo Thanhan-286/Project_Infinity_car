@@ -24,13 +24,7 @@
     margin: 0 10px;
 }
 
-.p1 .col-md-3:hover {   
-    /* font-weight: 600;  */
-    text-decoration: underline; 
-    box-sizing: border-box;   
-    transform: translateX(5px);  
-    color: #000;
-}
+
 .p1 .row {
     padding-top: 15px;
     margin: 30px 0 100px 0;
