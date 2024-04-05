@@ -286,8 +286,34 @@
         <a href="./Warranties.html">Warranties</a>
         <a href="./Manuals.html">Search For Manuals And Guides</a>
         <a href="./Accessories.html">Accessories</a>
-        <a href="#show-more">Show More</a>
+        <a href="#show-more" onclick="toggleContent()">Show More</a>
       </div>
+      
+        <div id="hiddenContent" 
+          style="position: sticky;
+          
+          background-color: #fff;
+          position: absolute; 
+          left: 60%;
+          border: 2.5px solid #000;
+          border-radius: 5px;
+          z-index: 99;
+          ">
+          <div style="border-top: 2px solid #000; margin: 10px;">EXTENDED PROTECTION </div><br>
+          <div style="border-top: 2px solid #000; margin: 10px;">Snug Kids®</div>
+        </div>
+      
+
+      <script>
+      function toggleContent() {
+        var content = document.getElementById("hiddenContent");
+        if (content.style.display === "none") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+      }
+      </script>
 
     <div class="container">
       <div class="row" >
